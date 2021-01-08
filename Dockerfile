@@ -11,5 +11,3 @@ CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 COPY index.html /var/www/html
 # Override Conf
 COPY httpd.conf /etc/httpd/conf/
-
-#
